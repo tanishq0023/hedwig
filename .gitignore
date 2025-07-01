@@ -1,0 +1,41 @@
+# Node modules in backend
+/backend/node_modules/
+
+# Environment files in backend
+/backend/.env
+/backend/.env.local
+/backend/.env.*.local
+
+# Global node_modules (if any at root)
+node_modules/
+
+# Frontend build
+/frontend/build/
+build/
+dist/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDEs/editors
+.vscode/
+.idea/
+
+# Testing
+coverage/
+jest-test-results.json
+
+# Cache
+.cache/
+.next/
+
+# Misc
+*.tgz
